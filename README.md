@@ -15,7 +15,7 @@
 If name is a built-in command, then tsh will handle it immediately and wait for the next command line. 
 Otherwise, tsh will assume that name is the path of an executable file, which it loads and runs in the context of an initial child process.
 
-* Typing ctrl-c (ctrl-z) will cause a `SIGINT (SIGTSTP)` signal to be sent to the current foreground
+* Typing `ctrl-c` (`ctrl-z`) will cause a `SIGINT (SIGTSTP)` signal to be sent to the current foreground
 job, as well as any descendents of that job. If there is no foreground job, then the signal will have no effect.
 
 * If the command line ends with an ampersand &, then tsh will run the job in the background. Otherwise, it will run the job in the foreground.
