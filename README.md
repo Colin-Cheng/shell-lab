@@ -1,7 +1,7 @@
 # shell-lab
 
 
-### This is a simple Unix Shell that supports foreground and background processes and job control.
+### This is a Unix Shell that supports foreground and background processes and job control.
 
 #### To run this project in command line:
 1. type `make` to compile the code
